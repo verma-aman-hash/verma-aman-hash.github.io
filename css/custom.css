@@ -38,6 +38,12 @@
     display: block;
 }
 
+header .logo img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
 .travel-info {
     padding: 10px 0 30px;
 }
@@ -123,16 +129,16 @@
 }
 
 .hero .hero-content img {
-    width: 92%;
-    max-width: 980px;
-    margin-bottom: 10%;
+    width: 98%;
+    max-width: 1200px;
+    margin-bottom: 8%;
 }
 
 @media (max-width: 768px) {
     .hero .hero-content img {
-        width: 95%;
-        max-width: 680px;
-        margin-bottom: 12%;
+        width: 98%;
+        max-width: 760px;
+        margin-bottom: 10%;
     }
 
     .hero-video {
