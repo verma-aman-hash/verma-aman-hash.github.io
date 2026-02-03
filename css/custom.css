@@ -121,3 +121,25 @@
         grid-row: auto / span 1 !important;
     }
 }
+
+.hero .hero-content img {
+    width: 92%;
+    max-width: 980px;
+    margin-bottom: 10%;
+}
+
+@media (max-width: 768px) {
+    .hero .hero-content img {
+        width: 95%;
+        max-width: 680px;
+        margin-bottom: 12%;
+    }
+
+    .hero-video {
+        display: none;
+    }
+
+    .hero {
+        background: url("../img/hero-mobile.jpg") center center / cover no-repeat;
+    }
+}
