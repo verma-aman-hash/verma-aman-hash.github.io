@@ -608,9 +608,10 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email" data-i18n-placeholder-hi="आपका ईमेल"
-                                                                     required>
+                                <i class="fa fa-phone"></i><input type="tel" name="phone" class=""
+                                                                     placeholder="Phone number" data-i18n-placeholder-hi="फोन नंबर"
+                                                                     inputmode="numeric" pattern="[0-9]{10}" minlength="10" maxlength="10"
+                                                                     title="Enter a 10-digit phone number" required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
@@ -634,8 +635,7 @@
                             <div class="form-input-group">
                                 <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
                                                                 class="" min="0"
-                                                                placeholder="Invite code" data-i18n-placeholder-hi="आमंत्रण कोड"
-                                                                required>
+                                                                placeholder="Invite code" data-i18n-placeholder-hi="आमंत्रण कोड">
                             </div>
                         </div>
                     </div>
