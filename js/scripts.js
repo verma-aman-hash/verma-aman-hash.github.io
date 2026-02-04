@@ -50,7 +50,13 @@ $(document).ready(function () {
 
     /***************** Initiate Flexslider ******************/
     $('.flexslider').flexslider({
-        animation: "slide"
+        animation: "slide",
+        slideshowSpeed: 2000,
+        animationSpeed: 600,
+        smoothHeight: true,
+        controlNav: true,
+        directionNav: true,
+        touch: true
     });
 
     /***************** Initiate Fancybox ******************/
