@@ -111,6 +111,13 @@ header .logo img {
     }
 }
 
+.rsvp .rsvp-form .form-input-group i.fa-phone {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+}
+
 #eng-pics .eng-pos-01 { grid-column: 1 / span 2; grid-row: 1 / span 2; }
 #eng-pics .eng-pos-02 { grid-column: 3 / span 2; grid-row: 1 / span 2; }
 #eng-pics .eng-pos-03 { grid-column: 2 / span 2; grid-row: 3 / span 2; }
@@ -165,7 +172,7 @@ header .logo img {
     }
 
     header {
-        border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+       /* border-bottom: solid 1px rgba(255, 255, 255, 0.2);*/
         padding: 40px 0;
     }
 }
